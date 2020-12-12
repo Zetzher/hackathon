@@ -504,3 +504,53 @@ footer img {
   border-radius: 10px;
   width: 300px;
 }
+
+.proyects-second-container {
+  height: 90vh;
+  margin-left: 200px;
+  margin-right: 200px;
+  background-color: lightgrey;
+}
+
+.proyects-second-container span h4 {
+  width: 250px;
+  padding-bottom: 20px;
+  position: relative;
+  top: 20px;
+}
+
+.proyects-second-container article {
+  display: flex;
+  flex-direction: row;
+}
+
+.proyects-second-container article div {
+  display: flex;
+  flex-direction: column;
+  margin-right: 40px;
+  margin-left: 40px;
+}
+
+.proyects-second-container h1 {
+  font-family: "Roboto", sans-serif;
+  font-size: 36px;
+  font-weight: bold;
+  padding-bottom: 80px;
+  width: 550px;
+}
+
+.proyects-second-container h2 {
+  font-family: acumin-pro, sans-serif;
+  font-weight: lighter;
+  font-style: normal;
+  font-size: 23px;
+  margin-bottom: 10px;
+  font-weight: bold;
+}
+
+.proyects-second-container h4 {
+  font-family: "Roboto", sans-serif;
+  font-size: 23px;
+  margin-bottom: 10px;
+  font-weight: bold;
+}
