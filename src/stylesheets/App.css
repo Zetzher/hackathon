@@ -529,7 +529,6 @@ footer img {
   margin-right: 60px;
   margin-left: 60px;
   background-color: lightgrey;
-  
 }
 
 .projects-second-container h1 {
@@ -680,7 +679,6 @@ footer img {
 
 /**/
 
-
 .partnerships-second-container {
   height: 90vh;
   margin-left: 200px;
@@ -705,7 +703,6 @@ footer img {
   margin-right: 60px;
   margin-left: 60px;
   background-color: lightgrey;
-  
 }
 
 .partnerships-second-container h1 {
@@ -853,3 +850,88 @@ footer img {
   margin-top: 70px;
   font-size: 20px;
 }
+
+.aboutme-first-section {
+  height: 60vh;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  margin-top: 100px;
+}
+
+.aboutme-first-section article {
+  margin-bottom: 50px;
+  width: 300px;
+}
+
+
+.aboutme-first-section div {
+  display: flex;
+  flex-direction: row;
+}
+
+.aboutme-first-section span {
+  display: flex;
+  flex-direction: column;
+}
+
+.aboutme-first-section img {
+  width: 300px;
+  height: 300px;
+  position: relative;
+  right: 200px;
+}
+
+.aboutme-first-section span h1 {
+  text-align: left;
+  width: 250px;
+  position: relative;
+  left: 150px;
+  line-height: 20px;
+  margin-bottom: 10px;
+}
+
+.aboutme-first-section span h4 {
+  width: 350px;
+  position: relative;
+  left: 150px;
+  line-height: 18px;
+}
+
+.aboutme-first-section span button {
+  width: 280px;
+  height: 40px;
+  position: relative;
+  left: 150px;
+  top: 55px;
+}
+
+.aboutme-first-section article {
+}
+/* 
+.aboutme-second-section {
+  height: 80vh;
+  position: relative;
+  top: 150px;
+  display: flex;
+  flex-direction: row;
+}
+
+
+.aboutme-second-section img {
+  width: 300px;
+  height: 300px;
+}
+
+.aboutme-second-section div article h1 {
+}
+
+.aboutme-second-section div article h4 {
+  width: 500px;
+  text-align: left;
+}
+
+.aboutme-second-section span button {
+  width: 260px;
+  height: 40px;
+} */

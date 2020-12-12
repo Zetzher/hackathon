@@ -24,14 +24,14 @@ let AboutMe = (props) => {
   console.log(infoApi && infoApi.data);
   return (
     <>
-      <section>
-        <div>
+        <article style={{marginTop: 200, position: 'relative', left: 200, width: 600}}>
           <h1>NATURE:</h1>
           <h3>
             Designer of questionable life and awesome environments since
             millions of years ago
           </h3>
-        </div>
+        </article>
+      <section className="aboutme-first-section">
         <div>
           <img src={ImagenEjemplo} alt="first-img" />
           <span>
@@ -46,20 +46,14 @@ let AboutMe = (props) => {
           </span>
         </div>
       </section>
-      <section>
-        <div>
-          <span>
-            <h1>VARIETY OF MODELS</h1>
-            <h4>
-              Multidisciplinary design is our specialty. We believe in
-              inclusivity and variation. That's why we cover different forms of
-              life, from our world-famous humans to less known creations like
-              micro-organisms and seldom-seen lake monsters.
-            </h4>
-          </span>
-          <img src={ImagenEjemplo} alt="second-img" />
-        </div>
-        <button>Take a Look at Our Catalogue of Products</button>
+      <section className="aboutme-second-section">
+        <h1>VARIETY OF MODELS</h1>
+        <h4>
+          Multidisciplinary design is our specialty. We believe in inclusivity
+          and variation. That's why we cover different forms of life, from our
+          world-famous humans to less known creations like micro-organisms and
+          seldom-seen lake monsters.
+        </h4>
       </section>
       <section>
         <h1>IN CONSTANT PARTNERSHIP WITH PLANER EARTH</h1>
@@ -73,7 +67,17 @@ let AboutMe = (props) => {
         <h2>
           {infoApi ? (
             <>
-              <h3>{infoApi.data[0].title}</h3> <h3>{infoApi.data[0].description}</h3>  {infoApi.data[0].image && <img src={infoApi.data[0].image} alt="img_api" />} <h3>{infoApi.data[0].author}</h3> <h3>{infoApi.data[1].title}</h3><h3>{infoApi.data[0].description}</h3> {infoApi.data[0].image && <img src={infoApi.data[1].image} alt="img_api" />}<h3>{infoApi.data[1].author}</h3>
+              <h3>{infoApi.data[0].title}</h3>{" "}
+              <h3>{infoApi.data[0].description}</h3>{" "}
+              {infoApi.data[0].image && (
+                <img src={infoApi.data[0].image} alt="img_api" />
+              )}{" "}
+              <h3>{infoApi.data[0].author}</h3> <h3>{infoApi.data[1].title}</h3>
+              <h3>{infoApi.data[0].description}</h3>{" "}
+              {infoApi.data[0].image && (
+                <img src={infoApi.data[1].image} alt="img_api" />
+              )}
+              <h3>{infoApi.data[1].author}</h3>
             </>
           ) : (
             <h3>Cargando...</h3>
