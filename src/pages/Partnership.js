@@ -1,6 +1,6 @@
 import React from 'react';
 
-let PublicEnemies = () => {
+let Partnership = () => {
     return (
         <>
             
@@ -8,4 +8,4 @@ let PublicEnemies = () => {
     )
 }
 
-export default PublicEnemies;
+export default Partnership;

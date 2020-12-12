@@ -151,3 +151,356 @@ breakpoint {
     max-width: 24%;
   }
 }
+
+.home-first-container {
+  height: 100vh;
+  background-color: lightgrey;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.bitch-image-earth {
+  width: 300px;
+  height: 300px;
+}
+
+.span-bitch-earth {
+  display: flex;
+  flex-direction: column;
+  font-family: "Roboto", sans-serif;
+  font-size: 20px;
+  font-weight: 600;
+  position: relative;
+  bottom: 60px;
+}
+
+.span-bitch-earth button {
+  position: relative;
+  top: 120px;
+  border-radius: 10px;
+  background-color: grey;
+  color: white;
+  font-family: "Roboto", sans-serif;
+  height: 40px;
+  border: none;
+  width: 180px;
+}
+
+.home-second-container {
+  height: 60vh;
+  background-color: white;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  font-weight: bold;
+  position: relative;
+  bottom: 50px;
+}
+
+.your-next-host-span {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.your-next-host-span button {
+  position: relative;
+  top: 100px;
+  align-items: center;
+  border-radius: 10px;
+  background-color: grey;
+  color: white;
+  font-family: "Roboto", sans-serif;
+  height: 40px;
+  border: none;
+  width: 160px;
+}
+
+.home-third-container {
+  height: 100vh;
+  background-color: lightgrey;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.home-third-container article {
+  display: flex;
+  flex-direction: row;
+  position: relative;
+  left: 50px;
+}
+
+.home-third-container div {
+  width: 250px;
+  height: 450px;
+  display: flex;
+  flex-direction: column;
+  background-color: lightblue;
+  margin-right: 100px;
+  position: relative;
+}
+
+.home-third-container span {
+  width: 220px;
+  padding-top: 20px;
+}
+.home-third-container h1 {
+  font-family: "Roboto", sans-serif;
+  font-weight: bold;
+  font-size: 31px;
+}
+
+.home-third-container div h1 {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  margin-left: 20px;
+  font-family: "Roboto", sans-serif;
+  font-weight: bold;
+  font-size: 23px;
+}
+
+.home-third-container h4 {
+  margin-left: 20px;
+  margin-bottom: 10px;
+  line-height: 20px;
+  font-size: 14px;
+  font-family: "Roboto", sans-serif;
+  font-weight: lighter;
+}
+
+.home-third-container button {
+  border-radius: 10px;
+  background-color: grey;
+  color: white;
+  font-family: "Roboto", sans-serif;
+  height: 40px;
+  border: none;
+  width: 200px;
+}
+
+.posession-image-section {
+  width: 200px;
+  height: 200px;
+  margin-left: 20px;
+}
+
+.home-fourth-container {
+  height: 100vh;
+  background-color: white;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.home-fourth-container h1 {
+  font-family: "Roboto", sans-serif;
+  font-size: 31px;
+  font-weight: bold;
+  position: relative;
+  bottom: 20px;
+}
+
+.home-fourth-container form {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  width: 400px;
+  height: 500px;
+  background-color: blue;
+  border-radius: 10px;
+}
+
+.home-fourth-container input {
+  width: 300px;
+  height: 40px;
+  border-radius: 10px;
+}
+
+.home-fourth-container label {
+  font-family: "Roboto", sans-serif;
+  font-size: 10px;
+  position: relative;
+  top: 30px;
+  font-weight: lighter;
+}
+
+.home-fourth-container select {
+  width: 300px;
+  height: 40px;
+  font-family: "Roboto", sans-serif;
+  font-size: 10px;
+  position: relative;
+  top: 10px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.home-fourth-container textarea {
+  height: 100px;
+  border-radius: 10px;
+  width: 300px;
+}
+
+#button-to-submit {
+  border-radius: 10px;
+  background-color: grey;
+  color: white;
+  font-family: "Roboto", sans-serif;
+  height: 40px;
+  border: none;
+  width: 70px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+footer {
+  background-color: grey;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  height: 250px;
+  color: white;
+}
+
+footer span {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  height: 150px;
+  position: relative;
+  bottom: 20px;
+}
+
+footer span h2 {
+  font-size: 21px;
+  font-weight: bold;
+}
+
+footer span h3 {
+  height: 5px;
+  width: 180px;
+}
+
+.third-section-footer {
+  height: 60px;
+  width: 200px;
+}
+
+.third-section-footer a {
+  color: white;
+}
+
+footer img {
+  width: 70px;
+}
+
+#footer-image-icon {
+  display: flex;
+  align-items: center;
+}
+
+.contact-first-container {
+  height: 70vh;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.contact-first-container div {
+  display: flex;
+  flex-direction: row;
+}
+
+.contact-first-container article {
+  width: 400px;
+  position: relative;
+  right: 40px;
+}
+
+.contact-first-container article h1 {
+  font-family: "Roboto", sans-serif;
+  font-size: 23px;
+  font-weight: bold;
+  padding-bottom: 30px;
+}
+
+.contact-first-container article h3 {
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
+  margin-bottom: 15px;
+  font-weight: lighter;
+}
+
+.contact-image {
+  width: 240px;
+  height: 150px;
+  position: relative;
+  left: 40px;
+}
+
+.contact-second-container {
+  height: 90vh;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+
+.contact-second-container h1 {
+  font-family: "Roboto", sans-serif;
+  font-size: 23px;
+  font-weight: bold;
+  position: relative;
+  bottom: 40px;
+  right: 150px;
+}
+
+.contact-second-container form {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  width: 400px;
+  height: 500px;
+  background-color: blue;
+  border-radius: 10px;
+}
+
+.contact-second-container input {
+  width: 300px;
+  height: 40px;
+  border-radius: 10px;
+}
+
+.contact-second-container label {
+  font-family: "Roboto", sans-serif;
+  font-size: 10px;
+  position: relative;
+  top: 30px;
+  font-weight: lighter;
+}
+
+.contact-second-container select {
+  width: 300px;
+  height: 40px;
+  font-family: "Roboto", sans-serif;
+  font-size: 10px;
+  position: relative;
+  top: 10px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.contact-second-container textarea {
+  height: 100px;
+  border-radius: 10px;
+  width: 300px;
+}
