@@ -505,52 +505,351 @@ footer img {
   width: 300px;
 }
 
-.proyects-second-container {
+.projects-second-container {
   height: 90vh;
   margin-left: 200px;
   margin-right: 200px;
-  background-color: lightgrey;
 }
 
-.proyects-second-container span h4 {
+.projects-second-container span h4 {
   width: 250px;
-  padding-bottom: 20px;
   position: relative;
   top: 20px;
+  line-height: 24px;
 }
 
-.proyects-second-container article {
+.projects-second-container article {
   display: flex;
   flex-direction: row;
 }
 
-.proyects-second-container article div {
+.projects-second-container article div {
   display: flex;
   flex-direction: column;
-  margin-right: 40px;
-  margin-left: 40px;
+  margin-right: 60px;
+  margin-left: 60px;
+  background-color: lightgrey;
+  
 }
 
-.proyects-second-container h1 {
+.projects-second-container h1 {
   font-family: "Roboto", sans-serif;
   font-size: 36px;
   font-weight: bold;
-  padding-bottom: 80px;
+  padding-bottom: 30px;
+  margin-top: 20px;
   width: 550px;
 }
 
-.proyects-second-container h2 {
+.projects-second-container h2 {
   font-family: acumin-pro, sans-serif;
   font-weight: lighter;
   font-style: normal;
   font-size: 23px;
   margin-bottom: 10px;
   font-weight: bold;
+  padding-top: 10px;
+  padding-left: 10px;
+  padding-top: 20px;
+  position: relative;
+  left: 10px;
 }
 
-.proyects-second-container h4 {
+.projects-second-container h4 {
   font-family: "Roboto", sans-serif;
+  font-size: 16px;
+  margin-bottom: 10px;
+  font-weight: lighter;
+  padding-left: 10px;
+  padding-right: 10px;
+  position: relative;
+  left: 10px;
+}
+
+.projects-second-container span {
+  padding-bottom: 30px;
+  padding-right: 10px;
+}
+
+.projects-first-container {
+  height: 50vh;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+.projects-first-container img {
+  position: relative;
+  right: 30px;
+}
+
+.projects-first-container article {
+  font-family: acumin-pro, sans-serif;
+  width: 370px;
+}
+
+.projects-first-container h3 {
+  font-family: acumin-pro, sans-serif;
+  margin-bottom: 30px;
+  position: relative;
+  top: 10px;
+}
+
+.projects-third-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 70px;
+}
+
+.projects-third-container article {
+  height: 40vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.projects-third-container article h1 {
+  font-family: acumin-pro, sans-serif;
+  font-size: 36px;
+  font-weight: bold;
+  margin-bottom: 30px;
+}
+
+.projects-third-container article h3 {
+  font-family: acumin-pro, sans-serif;
+  font-size: 24px;
+  font-weight: 400;
+  width: 450px;
+  text-align: center;
+}
+
+.projects-third-container span {
+  height: 70vh;
+  background-color: lightgrey;
+  width: 400px;
+  height: 230px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.projects-third-container span h2 {
+  position: relative;
+  bottom: 20px;
+  font-size: 23px;
+  font-family: acumin-pro, sans-serif;
+  font-weight: bold;
+  left: 40px;
+}
+
+.projects-third-container span h4 {
+  position: relative;
+  font-size: 16px;
+  line-height: 20px;
+  font-family: acumin-pro, sans-serif;
+  left: 40px;
+  width: 350px;
+}
+
+.projects-third-container div {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+.projects-third-container img {
+  width: 380px;
+  height: 230px;
+}
+
+.projects-third-container button {
+  border-radius: 10px;
+  background-color: grey;
+  color: white;
+  font-family: "Roboto", sans-serif;
+  height: 40px;
+  border: none;
+  width: 200px;
+  margin-top: 70px;
+  font-size: 20px;
+}
+
+/**/
+
+
+.partnerships-second-container {
+  height: 90vh;
+  margin-left: 200px;
+  margin-right: 200px;
+}
+
+.partnerships-second-container span h4 {
+  width: 250px;
+  position: relative;
+  top: 20px;
+  line-height: 24px;
+}
+
+.partnerships-second-container article {
+  display: flex;
+  flex-direction: row;
+}
+
+.partnerships-second-container article div {
+  display: flex;
+  flex-direction: column;
+  margin-right: 60px;
+  margin-left: 60px;
+  background-color: lightgrey;
+  
+}
+
+.partnerships-second-container h1 {
+  font-family: "Roboto", sans-serif;
+  font-size: 36px;
+  font-weight: bold;
+  padding-bottom: 30px;
+  margin-top: 20px;
+  width: 550px;
+}
+
+.partnerships-second-container h2 {
+  font-family: acumin-pro, sans-serif;
+  font-weight: lighter;
+  font-style: normal;
   font-size: 23px;
   margin-bottom: 10px;
   font-weight: bold;
+  padding-top: 10px;
+  padding-left: 10px;
+  padding-top: 20px;
+  position: relative;
+  left: 10px;
+}
+
+.partnerships-second-container h4 {
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
+  margin-bottom: 10px;
+  font-weight: lighter;
+  padding-left: 10px;
+  padding-right: 10px;
+  position: relative;
+  left: 10px;
+}
+
+.partnerships-second-container span {
+  padding-bottom: 30px;
+  padding-right: 10px;
+}
+
+.partnerships-first-container {
+  height: 50vh;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+.partnerships-first-container img {
+  position: relative;
+  right: 30px;
+}
+
+.partnerships-first-container article {
+  font-family: acumin-pro, sans-serif;
+  width: 370px;
+}
+
+.partnerships-first-container h3 {
+  font-family: acumin-pro, sans-serif;
+  margin-bottom: 30px;
+  position: relative;
+  top: 10px;
+}
+
+.partnerships-third-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 70px;
+}
+
+.partnerships-third-container article {
+  height: 40vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.partnerships-third-container article h1 {
+  font-family: acumin-pro, sans-serif;
+  font-size: 36px;
+  font-weight: bold;
+  margin-bottom: 30px;
+}
+
+.partnerships-third-container article h3 {
+  font-family: acumin-pro, sans-serif;
+  font-size: 24px;
+  font-weight: 400;
+  width: 450px;
+  text-align: center;
+}
+
+.partnerships-third-container span {
+  height: 70vh;
+  background-color: lightgrey;
+  width: 400px;
+  height: 230px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.partnerships-third-container span h2 {
+  position: relative;
+  bottom: 20px;
+  font-size: 23px;
+  font-family: acumin-pro, sans-serif;
+  font-weight: bold;
+  left: 40px;
+}
+
+.partnerships-third-container span h4 {
+  position: relative;
+  font-size: 16px;
+  line-height: 20px;
+  font-family: acumin-pro, sans-serif;
+  left: 40px;
+  width: 350px;
+}
+
+.partnerships-third-container div {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+.partnerships-third-container img {
+  width: 380px;
+  height: 230px;
+}
+
+.partnerships-third-container button {
+  border-radius: 10px;
+  background-color: grey;
+  color: white;
+  font-family: "Roboto", sans-serif;
+  height: 40px;
+  border: none;
+  width: 200px;
+  margin-top: 70px;
+  font-size: 20px;
 }
