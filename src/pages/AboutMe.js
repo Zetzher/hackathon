@@ -24,13 +24,13 @@ let AboutMe = (props) => {
   console.log(infoApi && infoApi.data);
   return (
     <>
-        <article style={{marginTop: 200, position: 'relative', left: 200, width: 600}}>
-          <h1>NATURE:</h1>
-          <h3>
-            Designer of questionable life and awesome environments since
-            millions of years ago
-          </h3>
-        </article>
+      <article className="article-nature-section">
+        <h1>NATURE:</h1>
+        <h3>
+          Designer of questionable life and awesome environments since millions
+          of years ago
+        </h3>
+      </article>
       <section className="aboutme-first-section">
         <div>
           <img src={ImagenEjemplo} alt="first-img" />
@@ -47,13 +47,17 @@ let AboutMe = (props) => {
         </div>
       </section>
       <section className="aboutme-second-section">
-        <h1>VARIETY OF MODELS</h1>
-        <h4>
-          Multidisciplinary design is our specialty. We believe in inclusivity
-          and variation. That's why we cover different forms of life, from our
-          world-famous humans to less known creations like micro-organisms and
-          seldom-seen lake monsters.
-        </h4>
+        <span>
+          <h1>VARIETY OF MODELS</h1>
+          <h4>
+            Multidisciplinary design is our specialty. We believe in inclusivity
+            and variation. That's why we cover different forms of life, from our
+            world-famous humans to less known creations like micro-organisms and
+            seldom-seen lake monsters.
+          </h4>
+        </span>
+        <img src={ImagenEjemplo} alt="first-img" />
+        <button>Take a Look at Our Catalogue of Products</button>
       </section>
       <section>
         <h1>IN CONSTANT PARTNERSHIP WITH PLANER EARTH</h1>
