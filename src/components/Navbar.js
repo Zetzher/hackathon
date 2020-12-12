@@ -12,7 +12,7 @@ class Navbar extends Component {
           menu={[
             { name: "ABOUT ME", to: "/aboutme" },
             { name: "HISTORY", to: "/history" },
-            { name: "PROYECTS", to: "/proyects" },
+            { name: "PROJECTS", to: "/projects" },
             { name: "UNPARTNERSHIPS", to: "/unpartnership" },
             { name: "CONTACT", to: "/contact" },
           ]}
