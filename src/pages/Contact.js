@@ -27,28 +27,28 @@ let Contact = () => {
         </div>
       </section>
       <section className="contact-second-container">
-        <h1>Or for the meditative challenged</h1>
-        <form>
-          <label>
-            <h5>Name</h5>
-          </label>
-          <input type="text" />
-          <label>
-            <h5>Last name</h5>
-          </label>
-          <input type="text" />
-          <label>Email</label>
-          <input type="text" />
-          <select>
-            <option>Reason for contact</option>
-            <option></option>
-            <option></option>
-            <option></option>
-          </select>
-          <label>Leave a comment</label>
-          <textarea></textarea>
-          <input type="submit" value="Send" id="button-to-submit" />
-        </form>
+        <h1>OR FOR THE MEDITATIVE CHALLENGED</h1>
+          <form>
+            <label>
+              <h5>Name</h5>
+            </label>
+            <input type="text" />
+            <label>
+              <h5>Last name</h5>
+            </label>
+            <input type="text" />
+            <label>Email</label>
+            <input type="text" />
+            <select>
+              <option>Reason for contact</option>
+              <option>Deviled doll seeking new body host</option>
+              <option>Possession n00bs looking for their starting hosts </option>
+              <option>Offended people</option>
+            </select>
+            <label>Leave a comment</label>
+            <textarea></textarea>
+            <input type="submit" value="Send" id="button-to-submit" />
+          </form>
       </section>
       <Footer />
     </>

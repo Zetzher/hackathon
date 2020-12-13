@@ -103,16 +103,7 @@ let Home = () => {
           <h1>Let's get in touch!</h1>
           <img src={GetTouch} alt="imagen_cuarta_section" />
           <Link to={"/contact"}>
-            <h5
-              style={{
-                color: "black",
-                position: "relative",
-                top: 50,
-                fontSize: 18,
-              }}
-            >
-              Other methods of contact
-            </h5>
+            <h5 className="method-contact">Other methods of contact</h5>
           </Link>
         </span>
         <span>
@@ -129,9 +120,9 @@ let Home = () => {
             <input type="text" />
             <select>
               <option>Reason for contact</option>
-              <option></option>
-              <option></option>
-              <option></option>
+              <option>Deviled doll seeking new body host</option>
+              <option>Possession n00bs looking for their starting hosts </option>
+              <option>Offended people</option>
             </select>
             <label>Leave a comment</label>
             <textarea></textarea>
