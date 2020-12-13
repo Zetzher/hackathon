@@ -29,6 +29,17 @@ let Contact = () => {
       </section>
       <section className="contact-second-container">
         <h1>OR FOR THE MEDITATIVE CHALLENGED</h1>
+        <aside
+            style={{
+              height: 30,
+              width: 435,
+              position: "relative",
+              backgroundColor: "#F2D546",
+              zIndex: -1,
+              bottom: 36,
+              right: 149,
+            }}
+          ></aside>
           <form>
             <label>
               <h5>Name</h5>

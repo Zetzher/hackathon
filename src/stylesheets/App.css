@@ -181,16 +181,18 @@ breakpoint {
 }
 
 .span-bitch-earth h1 {
-  letter-spacing: -2px;
+  letter-spacing: -3px;
   font-size: 30px;
   width: 300px;
+  z-index: 2;
+  line-height: 50px;
 }
 
 .span-bitch-earth button {
   position: relative;
   top: 40px;
   border-radius: 10px;
-  background-color: transparent;
+  background-color: red;
   color: white;
   font-family: acumin-pro, sans-serif;
   font-size: 25px;
@@ -237,8 +239,8 @@ breakpoint {
   top: 50px;
   align-items: center;
   background-color: transparent;
-  border: 1px solid white;
-  border-radius: 10px;
+  border: 2px solid white;
+  border-radius: 5px;
   color: white;
   font-size: 16px;
   font-family: acumin-pro, sans-serif;
@@ -254,6 +256,12 @@ breakpoint {
   flex-direction: column;
   justify-content: space-evenly;
   align-items: center;
+}
+
+.home-third-container h1 {
+  text-align: left;
+  letter-spacing: -2px;
+  z-index: 2;
 }
 
 .home-third-container article {
@@ -277,7 +285,7 @@ breakpoint {
 
 .home-third-container span {
   width: 220px;
-  padding-top: 20px;
+  padding-top: 10px;
 }
 .home-third-container h1 {
   font-weight: bold;
@@ -296,16 +304,22 @@ breakpoint {
 }
 
 .gym-rats-image {
+  position: relative;
+  bottom: 10px;
   width: 220px;
   height: 130px;
 }
 
 .celebs-image {
+  position: relative;
+  bottom: 10px;
   width: 220px;
   height: 130px;
 }
 
 .vaxxer-image {
+  position: relative;
+  bottom: 10px;
   width: 220px;
   height: 130px;
 }
@@ -325,12 +339,11 @@ breakpoint {
   font-size: 20px;
   border-radius: 10px;
   background-color: transparent;
-  color: black;
   height: 50px;
   border: none;
   width: 300px;
   font-weight: bold;
-  border: 3px solid black;
+  border: 3px solid red;
 }
 
 .method-contact {
@@ -502,13 +515,14 @@ breakpoint {
 }
 
 footer {
-  background-color: grey;
+  background-color: black;
   display: flex;
   flex-direction: row;
   justify-content: space-around;
   align-items: center;
   height: 250px;
   color: white;
+  font-family: acumin-pro, sans-serif;
 }
 
 footer span {
@@ -656,6 +670,7 @@ footer img {
   font-weight: bolder;
   top: 10px;
   width: 600px;
+  letter-spacing: -1px;
 }
 
 .projects-second-container {
@@ -700,14 +715,17 @@ footer img {
   font-family: acumin-pro, sans-serif;
   font-weight: lighter;
   font-style: normal;
-  font-size: 23px;
+  font-size: 25px;
   margin-bottom: 10px;
   font-weight: bold;
   padding-top: 10px;
   padding-left: 10px;
   padding-top: 20px;
   position: relative;
-  right: 20px;
+  right: 30px;
+  bottom: 10px;
+  z-index: 4;
+  letter-spacing: -1px;
 }
 
 .projects-second-container h4 {
@@ -747,7 +765,10 @@ footer img {
   font-family: acumin-pro, sans-serif;
   font-size: 36px;
   font-weight: bold;
-  margin-bottom: 30px;
+  margin-bottom: 20px;
+  letter-spacing: -3px;
+  color: white;
+  z-index: 2;
 }
 
 .projects-third-container article h3 {
@@ -756,6 +777,7 @@ footer img {
   font-weight: 400;
   width: 450px;
   text-align: center;
+  color: white;
 }
 
 .projects-third-container span {
@@ -770,12 +792,13 @@ footer img {
 
 .projects-third-container span h2 {
   position: relative;
-  bottom: 20px;
+  bottom: 30px;
   font-size: 23px;
   font-family: acumin-pro, sans-serif;
   font-weight: bold;
   left: 40px;
-  letter-spacing: -1px;
+  letter-spacing: -2px;
+  z-index: 2;
 }
 
 .projects-third-container span h4 {
@@ -863,6 +886,7 @@ footer img {
   padding-top: 20px;
   position: relative;
   left: 10px;
+  z-index: 2;
 }
 
 .partnerships-second-container h4 {
@@ -905,13 +929,15 @@ footer img {
 
 .partnerships-first-container h2 {
   font-family: acumin-pro, sans-serif;
+  color: red;
   margin-bottom: 30px;
   position: relative;
   font-size: 40px;
   font-weight: bold;
   top: 10px;
   width: 800px;
-  letter-spacing: -2px;
+  
+  letter-spacing: -3px;
 }
 
 .partnerships-first-container h3 {
@@ -946,27 +972,27 @@ footer img {
 
 .partnerships-third-container article h1 {
   font-family: acumin-pro, sans-serif;
+  color: black;
   font-size: 36px;
   font-weight: bold;
   margin-bottom: 30px;
-}
-
-.partnerships-third-container article h3 {
-  font-family: acumin-pro, sans-serif;
-  font-size: 24px;
-  font-weight: 400;
-  width: 450px;
-  text-align: center;
+  background-color: rgba(255, 0, 0, 0.4);
+  position: relative;
+  right: 200px;
+  height: 100px;
+  padding-top: 10px;
+  line-height: 40px;
 }
 
 .partnerships-third-container span {
   height: 70vh;
   background-color: white;
   width: 400px;
-  height: 230px;
+  height: 300px;
   display: flex;
   flex-direction: column;
   justify-content: center;
+  border: 1px solid red;
 }
 
 .partnerships-third-container span h2 {
@@ -976,6 +1002,7 @@ footer img {
   font-family: acumin-pro, sans-serif;
   font-weight: bold;
   left: 40px;
+  letter-spacing: -1px;
 }
 
 .partnerships-third-container span h4 {
@@ -1029,7 +1056,7 @@ footer img {
 
 .article-nature-section h3 {
   font-family: acumin-pro, sans-serif;
-  font-size: 36px;
+  font-size: 34px;
   font-weight: lighter;
   line-height: 40px;
   width: 550px;
@@ -1037,6 +1064,7 @@ footer img {
 
 .article-nature-section h3 span {
   border-bottom: 23px solid #edd147;
+  font-weight: bold;
 }
 
 .aboutme-first-section {
@@ -1102,6 +1130,7 @@ footer img {
   border-color: red;
   color: red;
   font-weight: bold;
+  z-index: 10;
 }
 
 .aboutme-second-section {
@@ -1162,7 +1191,7 @@ footer img {
   color: red;
   font-weight: bold;
   position: relative;
-  top: 25px;
+  top: 35px;
 }
 
 .aboutme-third-section {
@@ -1179,6 +1208,8 @@ footer img {
   text-align: center;
   width: 600px;
   letter-spacing: -2px;
+  z-index: 2;
+  line-height: 60px;
 }
 
 .aboutme-third-section div img {
@@ -1202,6 +1233,7 @@ footer img {
   font-family: acumin-pro, sans-serif;
   font-weight: bold;
   font-size: 20px;
+  width: 200px;
 }
 
 .aboutme-fourth-section article {
@@ -1318,6 +1350,7 @@ footer img {
   position: relative;
   top: 50px;
   right: 250px;
+  line-height: -10px;
 }
 
 .history-first-section {
@@ -1333,8 +1366,8 @@ footer img {
 }
 
 .history-second-section {
- position: relative;
- top: 200px;
+  position: relative;
+  top: 200px;
 }
 
 .history-second-section div {
@@ -1353,7 +1386,7 @@ footer img {
   height: 240px;
   position: relative;
   right: 200px;
-  background-color: #F6F6F6;
+  background-color: #f6f6f6;
   align-items: center;
   justify-content: center;
   font-family: acumin-pro, sans-serif;
@@ -1394,7 +1427,6 @@ footer img {
   line-height: 20px;
 }
 
-
 .history-second-section article {
   font-family: acumin-pro, sans-serif;
   display: flex;
@@ -1404,7 +1436,7 @@ footer img {
   height: 240px;
   position: relative;
   left: 200px;
-  background-color: #F6F6F6;
+  background-color: #f6f6f6;
   align-items: center;
   justify-content: center;
   z-index: 2;

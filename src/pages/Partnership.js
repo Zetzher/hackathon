@@ -19,7 +19,8 @@ let Partnership = () => {
         <img src={failed} alt="imagen-projects-first-section" />
         <article>
           <h2>
-            CHECK OUT OUR LIST OF BLACK LISTED CORPORATIONS AND INDIVIDUALS
+            CHECK OUT OUR LIST OF <span style={{ color: "black" }}>BLACK</span>{" "}
+            LISTED CORPORATIONS AND INDIVIDUALS
           </h2>
           <h3>
             To ensure self-preservation, we are very serious about the people we
@@ -32,11 +33,36 @@ let Partnership = () => {
       </section>
 
       <section className="partnerships-second-container">
-        <h1>PERSONAS NON GRATAS</h1>
+        <h1>
+          PERSONAS NON GRATAS
+          <aside
+            style={{
+              height: 30,
+              width: 382,
+              position: "relative",
+              backgroundColor: "#F2D546",
+              zIndex: -1,
+              bottom: 17,
+              right: 4,
+            }}
+          ></aside>
+        </h1>
         <Carousel arrows>
           <article>
             <div>
               <h2>EXXON MOBILE</h2>
+              <aside
+                style={{
+                  zIndex: 1,
+                  width: 180,
+                  height: 16,
+                  bottom: 20,
+                  left: 16,
+                  backgroundColor: "red",
+                  opacity: 1,
+                  position: "relative",
+                }}
+              ></aside>
               <img
                 src={exon}
                 alt="10-image-slide"
@@ -53,11 +79,19 @@ let Partnership = () => {
             </div>
             <div>
               <h2>JEFF BEZOS</h2>
-              <img
-                src={john}
-                alt="imagen-1-card"
-                className="gym-rats-image"
-              />
+              <aside
+                style={{
+                  zIndex: 1,
+                  width: 140,
+                  height: 16,
+                  bottom: 20,
+                  left: 16,
+                  backgroundColor: "red",
+                  opacity: 1,
+                  position: "relative",
+                }}
+              ></aside>
+              <img src={john} alt="imagen-1-card" className="gym-rats-image" />
               <span>
                 <h4>Annoyingly evil.</h4>
                 <h4>
@@ -70,6 +104,18 @@ let Partnership = () => {
           <article>
             <div>
               <h2>CHINA</h2>
+              <aside
+                style={{
+                  zIndex: 1,
+                  width: 80,
+                  height: 16,
+                  bottom: 20,
+                  left: 16,
+                  backgroundColor: "red",
+                  opacity: 1,
+                  position: "relative",
+                }}
+              ></aside>
               <img
                 src={china}
                 alt="10-image-slide"
@@ -86,6 +132,18 @@ let Partnership = () => {
             </div>
             <div>
               <h2>INFLUENCERS</h2>
+              <aside
+                style={{
+                  zIndex: 1,
+                  width: 170,
+                  height: 16,
+                  bottom: 20,
+                  left: 16,
+                  backgroundColor: "red",
+                  opacity: 1,
+                  position: "relative",
+                }}
+              ></aside>
               <img
                 src={famous}
                 alt="imagen-1-card"
@@ -103,6 +161,18 @@ let Partnership = () => {
           <article>
             <div>
               <h2>HARRY STYLES</h2>
+              <aside
+                style={{
+                  zIndex: 1,
+                  width: 175,
+                  height: 16,
+                  bottom: 20,
+                  left: 16,
+                  backgroundColor: "red",
+                  opacity: 1,
+                  position: "relative",
+                }}
+              ></aside>
               <img
                 src={harry}
                 alt="10-image-slide"
@@ -118,6 +188,18 @@ let Partnership = () => {
             </div>
             <div>
               <h2>CAPITALISM</h2>
+              <aside
+                style={{
+                  zIndex: 1,
+                  width: 145,
+                  height: 16,
+                  bottom: 20,
+                  left: 16,
+                  backgroundColor: "red",
+                  opacity: 1,
+                  position: "relative",
+                }}
+              ></aside>
               <img
                 src={dinero}
                 alt="imagen-1-card"
@@ -138,13 +220,21 @@ let Partnership = () => {
       <section className="partnerships-third-container">
         <article>
           <h1>
-            THINGS YOU THINK ARE BLACK LISTED... <br /> BUT ACTUALLY DON´T
+            THINGS YOU THINK ARE <aside style={{display: 'inline', backgroundColor: 'black', color: 'white'}}>BLACK</aside> LISTED... <br /> BUT ACTUALLY DON´T
             MATTER
           </h1>
-          <h3>
-            We’re in constant cooperation with planet earth to have just what
-            you need to make your possesing experience easier
-          </h3>
+          <aside
+                style={{
+                  zIndex: 1,
+                  width: 145,
+                  height: 14,
+                  bottom: 64,
+                  right: 85,
+                  backgroundColor: "black",
+                  opacity: 1,
+                  position: "relative",
+                }}
+              ></aside>
         </article>
         <div>
           <span>
@@ -159,10 +249,14 @@ let Partnership = () => {
               You are, however, making things harder for disabled people.
             </h4>
           </span>
-          <img src={ImagenEjemplo} alt="volcanous-image" style={{opacity: 0}} />
+          <img
+            src={ImagenEjemplo}
+            alt="volcanous-image"
+            style={{ opacity: 0 }}
+          />
         </div>
         <div>
-          <img src={ImagenEjemplo} alt="ozone-image" style={{opacity: 0}} />
+          <img src={ImagenEjemplo} alt="ozone-image" style={{ opacity: 0 }} />
           <span>
             <h2>FAST FASHION SHOPPERS</h2>
             <h4>

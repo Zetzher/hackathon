@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import ImagenEjemplo from "../assets/logo.png";
 import Footer from "../components/Footer";
 import Carousel, { Dots } from "@brainhubeu/react-carousel";
@@ -37,10 +38,34 @@ let Projects = () => {
 
       <section className="projects-second-container">
         <h1>DIVERSE HUMANITY = RICH SELECTION OF HOST BODIES</h1>
+        <aside
+          style={{
+            zIndex: -1,
+            width: 930,
+            height: 30,
+            backgroundColor: "#edd147",
+            opacity: 1,
+            position: "relative",
+            right: 10,
+            bottom: 48,
+          }}
+        ></aside>
         <Carousel arrows>
           <article>
             <div>
               <h2>GYM RATS</h2>
+              <aside
+                style={{
+                  zIndex: 1,
+                  width: 128,
+                  height: 16,
+                  right: 630,
+                  backgroundColor: "red",
+                  opacity: 1,
+                  position: "absolute",
+                  bottom: 356,
+                }}
+              ></aside>
               <img
                 src={gimrats}
                 alt="10-image-slide"
@@ -57,6 +82,18 @@ let Projects = () => {
             </div>
             <div>
               <h2>ANTI VAXXERS</h2>
+              <aside
+                style={{
+                  zIndex: 1,
+                  width: 175,
+                  height: 16,
+                  backgroundColor: "red",
+                  opacity: 1,
+                  position: "absolute",
+                  bottom: 356,
+                  right: 225,
+                }}
+              ></aside>
               <img
                 src={vaxxer}
                 alt="imagen-1-card"
@@ -73,7 +110,21 @@ let Projects = () => {
           </article>
           <article>
             <div>
-              <h2>VACUOUS CELEBS</h2>
+              <h2 style={{ position: "relative", right: 10 }}>
+                VACUOUS CELEBS
+              </h2>
+              <aside
+                style={{
+                  zIndex: 1,
+                  width: 210,
+                  height: 16,
+                  right: 567,
+                  backgroundColor: "red",
+                  opacity: 1,
+                  position: "absolute",
+                  bottom: 366,
+                }}
+              ></aside>
               <img
                 src={famous}
                 alt="10-image-slide"
@@ -91,6 +142,18 @@ let Projects = () => {
             </div>
             <div>
               <h2>RKOFIG</h2>
+              <aside
+                style={{
+                  zIndex: 1,
+                  width: 97,
+                  height: 16,
+                  backgroundColor: "red",
+                  opacity: 1,
+                  position: "absolute",
+                  bottom: 366,
+                  right: 263,
+                }}
+              ></aside>
               <img
                 src={rkofig}
                 alt="imagen-1-card"
@@ -109,6 +172,18 @@ let Projects = () => {
           <article>
             <div>
               <h2>HARRY STYLES</h2>
+              <aside
+                style={{
+                  zIndex: 1,
+                  width: 180,
+                  height: 16,
+                  backgroundColor: "red",
+                  opacity: 1,
+                  position: "absolute",
+                  bottom: 355,
+                  right: 603,
+                }}
+              ></aside>
               <img
                 src={harry}
                 alt="10-image-slide"
@@ -126,6 +201,18 @@ let Projects = () => {
             </div>
             <div>
               <h2>RUNNERS</h2>
+              <aside
+                style={{
+                  zIndex: 1,
+                  width: 118,
+                  height: 16,
+                  backgroundColor: "red",
+                  opacity: 1,
+                  position: "absolute",
+                  bottom: 353,
+                  right: 255,
+                }}
+              ></aside>
               <img
                 src={runner}
                 alt="imagen-1-card"
@@ -144,11 +231,35 @@ let Projects = () => {
       </section>
 
       <section className="projects-second-container">
-        <h1>Or other forms of life</h1>
+        <h1>OR OTHER FORMS OF LIFE</h1>
+        <aside
+          style={{
+            zIndex: -1,
+            width: 430,
+            height: 30,
+            backgroundColor: "#edd147",
+            opacity: 1,
+            position: "relative",
+            right: 5,
+            bottom: 48,
+          }}
+        ></aside>
         <Carousel arrows>
           <article>
             <div>
               <h2>CATS</h2>
+              <aside
+                style={{
+                  zIndex: 1,
+                  width: 70,
+                  height: 16,
+                  backgroundColor: "red",
+                  opacity: 1,
+                  position: "absolute",
+                  bottom: 341,
+                  right: 657,
+                }}
+              ></aside>
               <img
                 src={gato}
                 alt="10-image-slide"
@@ -165,11 +276,19 @@ let Projects = () => {
             </div>
             <div>
               <h2>DOGS</h2>
-              <img
-                src={perro}
-                alt="imagen-1-card"
-                className="gym-rats-image"
-              />
+              <aside
+                style={{
+                  zIndex: 1,
+                  width: 75,
+                  height: 16,
+                  backgroundColor: "red",
+                  opacity: 1,
+                  position: "absolute",
+                  bottom: 340,
+                  right: 275,
+                }}
+              ></aside>
+              <img src={perro} alt="imagen-1-card" className="gym-rats-image" />
               <span>
                 <h4>Human favorite.</h4>
                 <h4>
@@ -182,6 +301,18 @@ let Projects = () => {
           <article>
             <div>
               <h2>CACTI</h2>
+              <aside
+                style={{
+                  zIndex: 1,
+                  width: 76,
+                  height: 16,
+                  backgroundColor: "red",
+                  opacity: 1,
+                  position: "absolute",
+                  bottom: 366,
+                  right: 654,
+                }}
+              ></aside>
               <img
                 src={cactus}
                 alt="10-image-slide"
@@ -198,11 +329,19 @@ let Projects = () => {
             </div>
             <div>
               <h2>COWS</h2>
-              <img
-                src={vaca}
-                alt="imagen-1-card"
-                className="gym-rats-image"
-              />
+              <aside
+                style={{
+                  zIndex: 1,
+                  width: 75,
+                  height: 16,
+                  backgroundColor: "red",
+                  opacity: 1,
+                  position: "absolute",
+                  bottom: 365,
+                  right: 275,
+                }}
+              ></aside>
+              <img src={vaca} alt="imagen-1-card" className="gym-rats-image" />
               <span>
                 <h4> The Harry Styles of mammals.</h4>
                 <h4>
@@ -216,6 +355,18 @@ let Projects = () => {
           <article>
             <div>
               <h2>TREES</h2>
+              <aside
+                style={{
+                  zIndex: 1,
+                  width: 76,
+                  height: 16,
+                  backgroundColor: "red",
+                  opacity: 1,
+                  position: "absolute",
+                  bottom: 366,
+                  right: 654,
+                }}
+              ></aside>
               <img
                 src={arbol}
                 alt="10-image-slide"
@@ -233,6 +384,18 @@ let Projects = () => {
             </div>
             <div>
               <h2>ROCKS</h2>
+              <aside
+                style={{
+                  zIndex: 1,
+                  width: 86,
+                  height: 16,
+                  backgroundColor: "red",
+                  opacity: 1,
+                  position: "absolute",
+                  bottom: 365,
+                  right: 270,
+                }}
+              ></aside>
               <img
                 src={piedra}
                 alt="imagen-1-card"
@@ -248,7 +411,18 @@ let Projects = () => {
       </section>
       <section className="projects-third-container">
         <article>
-          <h1>Why Choose Nature?</h1>
+          <h1>WHY CHOOSE NATURE?</h1>
+          <aside
+            style={{
+              zIndex: 1,
+              width: 370,
+              height: 30,
+              backgroundColor: "red",
+              opacity: 1,
+              position: "relative",
+              bottom: 40,
+            }}
+          ></aside>
           <h3>
             We’re in constant cooperation with planet earth to have just what
             you need to make your possesing experience easier
@@ -256,7 +430,18 @@ let Projects = () => {
         </article>
         <div>
           <span>
-            <h2>Gravity</h2>
+            <h2>GRAVITY</h2>
+            <aside
+              style={{
+                height: 60,
+                width: 20,
+                position: "absolute",
+                backgroundColor: "#F2D546",
+                top: "2220px",
+                zIndex: 1,
+                left: "380px",
+              }}
+            ></aside>
             <h4>
               A the force by which a planet or other body draws objects toward
               its center. The force of gravity keeps all of the planets in orbit
@@ -264,14 +449,23 @@ let Projects = () => {
               transportation
             </h4>
           </span>
-          <img src={ImagenEjemplo} alt="gravity-image" style={{opacity: 0}} />
-          <div style={{height: 60, width: 20, position: 'absolute', backgroundColor: '#F3E622', top: '2220px', opacity: 0.6, left: '380px'}}></div>
+          <img src={ImagenEjemplo} alt="gravity-image" style={{ opacity: 0 }} />
         </div>
         <div>
-          <img src={ImagenEjemplo} alt="ozone-image" style={{opacity: 0}} />
+          <img src={ImagenEjemplo} alt="ozone-image" style={{ opacity: 0 }} />
           <span>
-            <h2>Ozone layer</h2>
-            <div style={{height: 30, width: 110, position: 'absolute', backgroundColor: '#72EADE', top: '2500px', opacity: 0.6, left: '760px'}}></div>
+            <h2>OZONE LAYER</h2>
+            <aside
+              style={{
+                height: 20,
+                width: 140,
+                position: "absolute",
+                backgroundColor: "#56F598",
+                top: "2486px",
+                left: "749px",
+                zIndex: 1
+              }}
+            ></aside>
             <h4>
               The ozone layer is a thin part of the Earth's atmosphere that
               absorbs almost all of the sun's harmful ultraviolet light, keeping
@@ -281,8 +475,18 @@ let Projects = () => {
         </div>
         <div>
           <span>
-            <h2>Volcanous</h2>
-            <div style={{height: 30, width: 100, position: 'absolute', backgroundColor: 'red', top: '2720px', opacity: 0.6, left: '380px'}}></div>
+            <h2>VOLCANOUS</h2>
+            <div
+              style={{
+                height: 20,
+                width: 130,
+                position: "absolute",
+                backgroundColor: "#F97F10",
+                top: "2705px",
+                zIndex: 1,
+                left: "369px",
+              }}
+            ></div>
             <h4>
               A volcano is a rupture in the crust of a planetary-mass object,
               such as Earth, that allows hot lava, volcanic ash, and gases to
@@ -290,9 +494,13 @@ let Projects = () => {
               freaking humans out for an easier possession
             </h4>
           </span>
-          <img src={ImagenEjemplo} alt="volcanous-image" style={{opacity: 0}} />
+          <img
+            src={ImagenEjemplo}
+            alt="volcanous-image"
+            style={{ opacity: 0 }}
+          />
         </div>
-        <button>Let's get in touch</button>
+        <button><Link to="contact" style={{textDecoration: 'none', color: 'white', fontWeight: 'bold'}}>Let's get in touch</Link></button>
       </section>
 
       <Footer />

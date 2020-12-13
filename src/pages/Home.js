@@ -15,8 +15,39 @@ let Home = () => {
     <>
       <div className="home-first-container">
         <span className="span-bitch-earth">
-          <h1>IT´S ME, BITCH YOUR MOTHER EARTH</h1>
-          <button>Get to know me better</button>
+          <h1>
+            IT´S ME, BITCH
+            <br />
+            YOUR MOTHER EARTH
+          </h1>
+          <div
+            style={{
+              height: 30,
+              width: 180,
+              position: "absolute",
+              backgroundColor: "red",
+              zIndex: 1,
+              top: 23,
+            }}
+          ></div>
+          <div
+            style={{
+              height: 30,
+              width: 280,
+              position: "absolute",
+              backgroundColor: "red",
+              zIndex: 1,
+              top: 73,
+            }}
+          ></div>
+          <button>
+            <Link
+              to={"/aboutme"}
+              style={{ textDecoration: "none", color: "white" }}
+            >
+              Get to know me better
+            </Link>
+          </button>
         </span>
       </div>
       <div className="home-second-container">
@@ -41,16 +72,47 @@ let Home = () => {
               ]}
             />
           </h2>
-          <button>Let's talk business</button>
+          <button>
+            <Link
+              to={"/contact"}
+              style={{ textDecoration: "none", color: "white" }}
+            >
+              Let's talk business
+            </Link>
+          </button>
         </span>
       </div>
       <div className="home-third-container">
-        <h1 style={{ textAlign: "left" }}>
+        <h1>
           ENJOY A VARIETY OF HUMAN BODIES TO POSSES
+          <aside
+            style={{
+              height: 30,
+              width: 670,
+              position: "relative",
+              backgroundColor: "#F2D546",
+              zIndex: -1,
+              bottom: 17,
+              right: 5,
+            }}
+          ></aside>
         </h1>
+
         <article>
           <div>
             <h1>GYM RATS</h1>
+            <aside
+              style={{
+                zIndex: 1,
+                width: 110,
+                height: 16,
+                backgroundColor: "red",
+                position: "relative",
+                bottom: 35,
+                right: 10
+              }}
+            ></aside>
+
             <img
               src={HomeFamous1}
               alt="imagen-1-card"
@@ -66,6 +128,17 @@ let Home = () => {
           </div>
           <div>
             <h1>ANTI VAXXERS</h1>
+            <aside
+              style={{
+                zIndex: 1,
+                width: 145,
+                height: 16,
+                backgroundColor: "red",
+                position: "relative",
+                bottom: 35,
+                right: 9
+              }}
+            ></aside>
             <img
               src={HomeFamous}
               alt="imagen-1-card"
@@ -81,6 +154,17 @@ let Home = () => {
           </div>
           <div>
             <h1>VACUOUS CELEBS</h1>
+            <aside
+              style={{
+                zIndex: 1,
+                width: 180,
+                height: 16,
+                backgroundColor: "red",
+                position: "relative",
+                bottom: 35,
+                right: 9
+              }}
+            ></aside>
             <img
               src={HomeFamous2}
               alt="imagen-1-card"
@@ -95,7 +179,10 @@ let Home = () => {
             </span>
           </div>
         </article>
-        <button>Check out my other models</button>
+        <button> <Link
+              to={"/projects"}
+              style={{ textDecoration: "none", color: "red", fontWeight: 'lighter' }}
+            >Check Out Our Models</Link></button>
       </div>
       <div className="home-fourth-container">
         <span>
@@ -121,7 +208,9 @@ let Home = () => {
             <select>
               <option>Reason for contact</option>
               <option>Deviled doll seeking new body host</option>
-              <option>Possession n00bs looking for their starting hosts </option>
+              <option>
+                Possession n00bs looking for their starting hosts{" "}
+              </option>
               <option>Offended people</option>
             </select>
             <label>Leave a comment</label>

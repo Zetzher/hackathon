@@ -5,6 +5,7 @@ import HistoryAmeba from "../assets/gifs/History-Amoeba.gif";
 import HistoryCloud from "../assets/gifs/History-Cloud.gif";
 import HistoryDino from "../assets/gifs/History-Dino.gif";
 import HistoryNatureEarth from "../assets/gifs/History-Nature_Earth.gif";
+import Footer from "../components/Footer";
 
 let History = () => {
   return (
@@ -94,7 +95,7 @@ let History = () => {
           <div></div>
           <aside>
             <article className="box-gradient">
-              <h1>2020 CURRENT SHITDOWN</h1>
+              <h1>2020<br/> CURRENT<br/> SHITDOWN</h1>
               <h2>
                 Totally preventable environmental catastrophe. Impending human
                 recall.
@@ -104,6 +105,8 @@ let History = () => {
           </aside>
         </div>
       </section>
+        
+      
     </>
   );
 };

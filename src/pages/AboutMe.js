@@ -1,4 +1,5 @@
 import React, { useState, useEffect } from "react";
+import { Link } from "react-router-dom";
 import Footer from "../components/Footer";
 import ImagenEjemplo from "../assets/logo.png";
 import axios from "axios";
@@ -41,12 +42,25 @@ let AboutMe = (props) => {
             <h1>SUSTAINABLE</h1>
             <h1>UNIVERSAL DESIGNS</h1>
             <h4>
-              Derived for Latin, we literally mean “birth”. <span style={{fontWeight: 'bold'}}>The mother of all
-              that exists and will exist.</span> Our goal is to create and provide
-              stable environments for our creations to become creators
-              themselves.
+              Derived for Latin, we literally mean “birth”.{" "}
+              <span style={{ fontWeight: "bold" }}>
+                The mother of all that exists and will exist.
+              </span>{" "}
+              Our goal is to create and provide stable environments for our
+              creations to become creators themselves.
             </h4>
-            <button>Check Out Our History of Releases</button>
+            <button>
+              <Link
+                to={"/history"}
+                style={{
+                  textDecoration: "none",
+                  color: "red",
+                  fontWeight: "lighter",
+                }}
+              >
+                Check Out Our History of Releases
+              </Link>
+            </button>
           </span>
         </div>
       </section>
@@ -56,18 +70,53 @@ let AboutMe = (props) => {
             <h1>VARIETY OF MODELS</h1>
             <h4>
               Multidisciplinary design is our specialty. We believe in
-              inclusivity and variation.</h4> <h4>That's why we cover different forms of
-              life, from our world-famous humans to less known creations like
-              micro-organisms and seldom-seen lake monsters.
+              inclusivity and variation.
+            </h4>{" "}
+            <h4>
+              That's why we cover different forms of life, from our world-famous
+              humans to less known creations like micro-organisms and
+              seldom-seen lake monsters.
             </h4>
           </span>
           <img src={gifBote} alt="second-gif" />
         </div>
-        <button>Take a Look at Our Catalogue of Products</button>
+        <button>
+          {" "}
+          <Link
+            to={"/history"}
+            style={{
+              textDecoration: "none",
+              color: "red",
+              fontWeight: "lighter",
+            }}
+          >
+            Take a Look at Our Catalogue of Products
+          </Link>
+        </button>
       </section>
       <section className="aboutme-third-section">
         <h1>IN CONSTANT PARTNERSHIP WITH PLANET EARTH</h1>
-       
+        <aside
+          style={{
+            width: 550,
+            height: 30,
+            backgroundColor: "#edd147",
+            position: "relative",
+            bottom: 90,
+            zIndex: 1,
+          }}
+        ></aside>
+        <aside
+          style={{
+            width: 250,
+            height: 30,
+            backgroundColor: "#edd147",
+            position: "relative",
+            bottom: 60,
+            zIndex: 1,
+          }}
+        ></aside>
+
         <div>
           <img src={nature} alt="third-img" />
           <img src={earth} alt="fourth-img" />

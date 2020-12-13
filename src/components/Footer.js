@@ -1,14 +1,14 @@
 import React from "react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faMapMarkedAlt } from "@fortawesome/free-solid-svg-icons";
-import ImagenEjemplo from "../assets/logo.png";
+import Logo from "../assets/Logo.svg";
 
 let Footer = () => {
   return (
     <>
       <footer>
         <span id="footer-image-icon">
-          <img src={ImagenEjemplo} alt="imagen-footer" style={{}} />
+          <img src={Logo} alt="imagen-footer" style={{}} />
           <FontAwesomeIcon icon={faMapMarkedAlt} style={{fontSize: 40, position: 'relative', top: 20}} />
         </span>
         <span style={{position: 'relative', right: 250}}>
