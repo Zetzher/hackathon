@@ -334,7 +334,7 @@ breakpoint {
 }
 
 .method-contact {
-  color: #DD3521;
+  color: #dd3521;
   position: relative;
   top: 50px;
   font-size: 18px;
@@ -391,7 +391,7 @@ breakpoint {
   width: 300px;
   height: 50px;
   border-radius: 5px;
-  border: 1px solid #DD3521;
+  border: 1px solid #dd3521;
 }
 
 .home-fourth-container label {
@@ -412,7 +412,7 @@ breakpoint {
   margin-top: 10px;
   margin-bottom: 10px;
   border-radius: 5px;
-  border: 1px solid #DD3521;
+  border: 1px solid #dd3521;
 }
 
 .home-fourth-container textarea {
@@ -420,15 +420,15 @@ breakpoint {
   border-radius: 10px;
   width: 300px;
   border-radius: 5px;
-  border: 1px solid #DD3521;
+  border: 1px solid #dd3521;
 }
 
 #button-to-submit {
   border-radius: 5px;
   background-color: transparent;
-  color: #DD3521;
+  color: #dd3521;
   font-family: "Roboto", sans-serif;
-  border: 3px solid #DD3521;
+  border: 3px solid #dd3521;
   height: 45px;
   width: 100px;
   margin-top: 20px;
@@ -455,7 +455,7 @@ breakpoint {
   width: 300px;
   height: 50px;
   border-radius: 5px;
-  border: 1px solid #DD3521;
+  border: 1px solid #dd3521;
 }
 
 .contact-second-container label {
@@ -476,7 +476,7 @@ breakpoint {
   margin-top: 10px;
   margin-bottom: 10px;
   border-radius: 5px;
-  border: 1px solid #DD3521;
+  border: 1px solid #dd3521;
 }
 
 .contact-second-container textarea {
@@ -484,15 +484,15 @@ breakpoint {
   border-radius: 10px;
   width: 300px;
   border-radius: 5px;
-  border: 1px solid #DD3521;
+  border: 1px solid #dd3521;
 }
 
 #button-to-submit {
   border-radius: 5px;
   background-color: transparent;
-  color: #DD3521;
+  color: #dd3521;
   font-family: "Roboto", sans-serif;
-  border: 3px solid #DD3521;
+  border: 3px solid #dd3521;
   height: 45px;
   width: 100px;
   margin-top: 20px;
@@ -549,7 +549,7 @@ footer img {
 }
 
 .contact-first-container {
-  background-color: #EDEDED;
+  background-color: #ededed;
   height: 70vh;
   display: flex;
   justify-content: space-around;
@@ -565,27 +565,30 @@ footer img {
   width: 400px;
   position: relative;
   right: 40px;
+  top: 10px;
 }
 
 .contact-first-container article h1 {
-  font-family: "Roboto", sans-serif;
-  font-size: 23px;
+  font-family: acumin-pro, sans-serif;
+  font-size: 40px;
   font-weight: bold;
   padding-bottom: 30px;
+  letter-spacing: -3px;
 }
 
 .contact-first-container article h3 {
-  font-family: "Roboto", sans-serif;
+  font-family: acumin-pro, sans-serif;
   font-size: 16px;
+  line-height: 22px;
   margin-bottom: 15px;
   font-weight: lighter;
 }
 
 .contact-image {
-  width: 240px;
-  height: 150px;
+  width: 260px;
+  height: 260px;
   position: relative;
-  left: 40px;
+  left: 60px;
 }
 
 .contact-second-container {
@@ -607,7 +610,53 @@ footer img {
   letter-spacing: -2px;
 }
 
+.projects-first-container {
+  height: 80vh;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
 
+.projects-first-container img {
+  position: relative;
+  right: 30px;
+}
+
+.projects-first-container article {
+  font-family: acumin-pro, sans-serif;
+  width: 370px;
+  font-size: 20px;
+  position: relative;
+  right: 150px;
+}
+
+.natura-gif-project {
+  position: relative;
+  left: 150px;
+  width: 300px;
+  height: 300px;
+}
+
+.projects-first-container h3 {
+  font-family: acumin-pro, sans-serif;
+  margin-bottom: 30px;
+  position: relative;
+  top: 10px;
+  line-height: 25px;
+  width: 450px;
+}
+
+.projects-first-container h1 {
+  font-family: acumin-pro, sans-serif;
+  margin-bottom: 30px;
+  position: relative;
+  font-size: 36px;
+  color: #d81e10;
+  font-weight: bolder;
+  top: 10px;
+  width: 600px;
+}
 
 .projects-second-container {
   height: 90vh;
@@ -630,18 +679,21 @@ footer img {
 .projects-second-container article div {
   display: flex;
   flex-direction: column;
+  align-items: center;
   margin-right: 60px;
   margin-left: 60px;
-  background-color: lightgrey;
+  background-color: black;
+  color: white;
 }
 
 .projects-second-container h1 {
-  font-family: "Roboto", sans-serif;
+  font-family: acumin-pro, sans-serif;
   font-size: 36px;
   font-weight: bold;
   padding-bottom: 30px;
   margin-top: 20px;
-  width: 550px;
+  width: 1000px;
+  letter-spacing: -2px;
 }
 
 .projects-second-container h2 {
@@ -655,7 +707,7 @@ footer img {
   padding-left: 10px;
   padding-top: 20px;
   position: relative;
-  left: 10px;
+  right: 20px;
 }
 
 .projects-second-container h4 {
@@ -674,36 +726,13 @@ footer img {
   padding-right: 10px;
 }
 
-.projects-first-container {
-  height: 50vh;
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  justify-content: center;
-}
-
-.projects-first-container img {
-  position: relative;
-  right: 30px;
-}
-
-.projects-first-container article {
-  font-family: acumin-pro, sans-serif;
-  width: 370px;
-}
-
-.projects-first-container h3 {
-  font-family: acumin-pro, sans-serif;
-  margin-bottom: 30px;
-  position: relative;
-  top: 10px;
-}
-
 .projects-third-container {
   display: flex;
   flex-direction: column;
   align-items: center;
-  margin-bottom: 70px;
+  background: url("../assets/images/bosque-projects.png");
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 
 .projects-third-container article {
@@ -731,7 +760,7 @@ footer img {
 
 .projects-third-container span {
   height: 70vh;
-  background-color: lightgrey;
+  background-color: white;
   width: 400px;
   height: 230px;
   display: flex;
@@ -746,6 +775,7 @@ footer img {
   font-family: acumin-pro, sans-serif;
   font-weight: bold;
   left: 40px;
+  letter-spacing: -1px;
 }
 
 .projects-third-container span h4 {
@@ -771,14 +801,16 @@ footer img {
 
 .projects-third-container button {
   border-radius: 10px;
-  background-color: grey;
+  background-color: #D81E10;
   color: white;
   font-family: "Roboto", sans-serif;
-  height: 40px;
+  height: 50px;
   border: none;
   width: 200px;
   margin-top: 70px;
-  font-size: 20px;
+  margin-bottom: 70px;
+  font-size: 17px;
+  border: 3px solid white;
 }
 
 .partnerships-second-container {
@@ -804,7 +836,9 @@ footer img {
   flex-direction: column;
   margin-right: 60px;
   margin-left: 60px;
-  background-color: lightgrey;
+  background-color: black;
+  align-items: center;
+  color: white;
 }
 
 .partnerships-second-container h1 {
@@ -814,6 +848,7 @@ footer img {
   padding-bottom: 30px;
   margin-top: 20px;
   width: 550px;
+  letter-spacing: -2px;
 }
 
 .partnerships-second-container h2 {
@@ -847,16 +882,20 @@ footer img {
 }
 
 .partnerships-first-container {
-  height: 50vh;
+  height: 60vh;
   display: flex;
   flex-direction: row;
   align-items: center;
   justify-content: center;
+  position: relative;
+  right: 100px;
 }
 
 .partnerships-first-container img {
   position: relative;
   right: 30px;
+  width: 300px;
+  height: 200px;
 }
 
 .partnerships-first-container article {
@@ -864,18 +903,34 @@ footer img {
   width: 370px;
 }
 
+.partnerships-first-container h2 {
+  font-family: acumin-pro, sans-serif;
+  margin-bottom: 30px;
+  position: relative;
+  font-size: 40px;
+  font-weight: bold;
+  top: 10px;
+  width: 800px;
+  letter-spacing: -2px;
+}
+
 .partnerships-first-container h3 {
   font-family: acumin-pro, sans-serif;
   margin-bottom: 30px;
   position: relative;
   top: 10px;
+  line-height: 20px;
+  left: 20px;
 }
 
 .partnerships-third-container {
   display: flex;
   flex-direction: column;
   align-items: center;
-  margin-bottom: 70px;
+  background: url("../assets//images/background_basura.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding-bottom: 50px;
 }
 
 .partnerships-third-container article {
@@ -884,6 +939,9 @@ footer img {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  color: white;
+  position: relative;
+  top: 10px;
 }
 
 .partnerships-third-container article h1 {
@@ -903,7 +961,7 @@ footer img {
 
 .partnerships-third-container span {
   height: 70vh;
-  background-color: lightgrey;
+  background-color: white;
   width: 400px;
   height: 230px;
   display: flex;
@@ -954,7 +1012,7 @@ footer img {
 }
 
 .article-nature-section {
-  margin-top: 160px;
+  padding-top: 160px;
   position: relative;
   left: 200px;
   width: 400px;

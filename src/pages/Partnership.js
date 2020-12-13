@@ -3,13 +3,24 @@ import ImagenEjemplo from "../assets/logo.png";
 import Footer from "../components/Footer";
 import Carousel, { Dots } from "@brainhubeu/react-carousel";
 import "@brainhubeu/react-carousel/lib/style.css";
+import failed from "../assets/images/failed.png";
+import china from "../assets/images/china.png";
+import john from "../assets/images/JOHN.png";
+import exon from "../assets/images/EXON.png";
+import famous from "../assets/images/vaxxer.png";
+import harry from "../assets/images/Home_Cards_Humans_HarryStyles.jpg";
+import dinero from "../assets/images/dinero.png";
+import basuraBackground from "../assets/images/background_basura.png";
 
 let Partnership = () => {
   return (
     <>
       <section className="partnerships-first-container">
-        <img src={ImagenEjemplo} alt="imagen-projects-first-section" />
+        <img src={failed} alt="imagen-projects-first-section" />
         <article>
+          <h2>
+            CHECK OUT OUR LIST OF BLACK LISTED CORPORATIONS AND INDIVIDUALS
+          </h2>
           <h3>
             To ensure self-preservation, we are very serious about the people we
             want to work with, and even more serious about the people we don't.
@@ -27,10 +38,10 @@ let Partnership = () => {
             <div>
               <h2>EXXON MOBILE</h2>
               <img
-                src={ImagenEjemplo}
+                src={exon}
                 alt="10-image-slide"
                 alt="imagen-1-card"
-                className="posession-image-section"
+                className="gym-rats-image"
               />
               <span>
                 <h4>Super evil.</h4>
@@ -43,9 +54,9 @@ let Partnership = () => {
             <div>
               <h2>JEFF BEZOS</h2>
               <img
-                src={ImagenEjemplo}
+                src={john}
                 alt="imagen-1-card"
-                className="posession-image-section"
+                className="gym-rats-image"
               />
               <span>
                 <h4>Annoyingly evil.</h4>
@@ -60,10 +71,10 @@ let Partnership = () => {
             <div>
               <h2>CHINA</h2>
               <img
-                src={ImagenEjemplo}
+                src={china}
                 alt="10-image-slide"
                 alt="imagen-1-card"
-                className="posession-image-section"
+                className="gym-rats-image"
               />
               <span>
                 <h4>Unstoppable evil.</h4>
@@ -76,9 +87,9 @@ let Partnership = () => {
             <div>
               <h2>INFLUENCERS</h2>
               <img
-                src={ImagenEjemplo}
+                src={famous}
                 alt="imagen-1-card"
-                className="posession-image-section"
+                className="gym-rats-image"
               />
               <span>
                 <h4>Stupid evil.</h4>
@@ -93,10 +104,10 @@ let Partnership = () => {
             <div>
               <h2>HARRY STYLES</h2>
               <img
-                src={ImagenEjemplo}
+                src={harry}
                 alt="10-image-slide"
                 alt="imagen-1-card"
-                className="posession-image-section"
+                className="gym-rats-image"
               />
               <span>
                 <h4>PLASTIC</h4>
@@ -108,9 +119,9 @@ let Partnership = () => {
             <div>
               <h2>CAPITALISM</h2>
               <img
-                src={ImagenEjemplo}
+                src={dinero}
                 alt="imagen-1-card"
-                className="posession-image-section"
+                className="gym-rats-image"
               />
               <span>
                 <h4>Root of all evil.</h4>
@@ -143,15 +154,15 @@ let Partnership = () => {
               world's beaches. Eight million tons of plastic flow into the ocean
               every year, and straws comprise just 0.025 percent of that. You’re
               not saving anything by banning straws.
-            </h4>{" "}
+            </h4>
             <h4 style={{ marginTop: 10 }}>
               You are, however, making things harder for disabled people.
             </h4>
           </span>
-          <img src={ImagenEjemplo} alt="volcanous-image" />
+          <img src={ImagenEjemplo} alt="volcanous-image" style={{opacity: 0}} />
         </div>
         <div>
-          <img src={ImagenEjemplo} alt="ozone-image" />
+          <img src={ImagenEjemplo} alt="ozone-image" style={{opacity: 0}} />
           <span>
             <h2>FAST FASHION SHOPPERS</h2>
             <h4>

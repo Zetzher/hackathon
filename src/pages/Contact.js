@@ -1,6 +1,7 @@
 import React from "react";
 import Footer from "../components/Footer";
 import ImagenEjemplo from "../assets/logo.png";
+import HombreMeditar from "../assets/images/hombre_meditar.png";
 
 let Contact = () => {
   return (
@@ -8,7 +9,7 @@ let Contact = () => {
       <section className="contact-first-container">
         <div>
           <article>
-            <h1>Higher states of consciousness</h1>
+            <h1>HIGHER STATES OF CONSCIOUSNESS</h1>
             <h3>
               Reach me through Nirvana. Feel free to practice different types of
               meditation or psychedelics to get in touch with your spirit guides
@@ -20,7 +21,7 @@ let Contact = () => {
             </h3>
           </article>
           <img
-            src={ImagenEjemplo}
+            src={HombreMeditar}
             alt="imagen-contact-ejemplo"
             className="contact-image"
           />

@@ -3,6 +3,19 @@ import ImagenEjemplo from "../assets/logo.png";
 import Footer from "../components/Footer";
 import Carousel, { Dots } from "@brainhubeu/react-carousel";
 import "@brainhubeu/react-carousel/lib/style.css";
+import NaturaGif from "../assets/gifs/About_me-Vision_nature1.gif";
+import gimrats from "../assets/images/gymrat.png";
+import famous from "../assets/images/famous.png";
+import vaxxer from "../assets/images/vaxxer.png";
+import rkofig from "../assets/images/Home_Cards_Humans_RKOI.png";
+import harry from "../assets/images/Home_Cards_Humans_HarryStyles.jpg";
+import runner from "../assets/images/Home_Cards_Humans_Runner.jpg";
+import gato from "../assets/images/gato.png";
+import perro from "../assets/images/perro.png";
+import cactus from "../assets/images/cactus.png";
+import piedra from "../assets/images/piedra.jpeg";
+import vaca from "../assets/images/vaca.jpg";
+import arbol from "../assets/images/arbol.jpg";
 
 let Projects = () => {
   return (
@@ -13,38 +26,41 @@ let Projects = () => {
             Since the invention of mother nature, we’ve have embarked on many
             different projects.
           </h3>
-          <h3>Find the right one for you!</h3>
+          <h1>FIND THE RIGHT ONE FOR YOU!</h1>
         </article>
-        <img src={ImagenEjemplo} alt="imagen-projects-first-section" />
+        <img
+          src={NaturaGif}
+          alt="imagen-projects-first-section"
+          className="natura-gif-project"
+        />
       </section>
 
       <section className="projects-second-container">
-        <h1>Diverse humanity = Rich selection of host bodies</h1>
+        <h1>DIVERSE HUMANITY = RICH SELECTION OF HOST BODIES</h1>
         <Carousel arrows>
           <article>
             <div>
-              <h2>Vacuous celebs</h2>
+              <h2>GYM RATS</h2>
               <img
-                src={ImagenEjemplo}
+                src={gimrats}
                 alt="10-image-slide"
                 alt="imagen-1-card"
-                className="posession-image-section"
+                className="gym-rats-image"
               />
               <span>
-                <h4>People others have willingly put above themselves.</h4>
+                <h4>People obsessed with their physical shape.</h4>
                 <h4>
-                  Infinite resources and mass audiences. Perfect for more
-                  difficult revenge plans requiring a little more time and
-                  money.
+                  Perfect for high-speed races, and achieving unresolved issues
+                  that required a lot of physical effort
                 </h4>
               </span>
             </div>
             <div>
-              <h2>Anti vaxxers</h2>
+              <h2>ANTI VAXXERS</h2>
               <img
-                src={ImagenEjemplo}
+                src={vaxxer}
                 alt="imagen-1-card"
-                className="posession-image-section"
+                className="gym-rats-image"
               />
               <span>
                 <h4>Humans willingly weakening their immune systems.</h4>
@@ -57,12 +73,12 @@ let Projects = () => {
           </article>
           <article>
             <div>
-              <h2>Vacuous celebs</h2>
+              <h2>VACUOUS CELEBS</h2>
               <img
-                src={ImagenEjemplo}
+                src={famous}
                 alt="10-image-slide"
                 alt="imagen-1-card"
-                className="posession-image-section"
+                className="gym-rats-image"
               />
               <span>
                 <h4>People others have willingly put above themselves.</h4>
@@ -76,9 +92,9 @@ let Projects = () => {
             <div>
               <h2>RKOFIG</h2>
               <img
-                src={ImagenEjemplo}
+                src={rkofig}
                 alt="imagen-1-card"
-                className="posession-image-section"
+                className="gym-rats-image"
               />
               <span>
                 <h4>1 percenters. Unbothered and forever blessed.</h4>
@@ -94,10 +110,10 @@ let Projects = () => {
             <div>
               <h2>HARRY STYLES</h2>
               <img
-                src={ImagenEjemplo}
+                src={harry}
                 alt="10-image-slide"
                 alt="imagen-1-card"
-                className="posession-image-section"
+                className="gym-rats-image"
               />
               <span>
                 <h4>Globally loved pop star.</h4>
@@ -111,9 +127,9 @@ let Projects = () => {
             <div>
               <h2>RUNNERS</h2>
               <img
-                src={ImagenEjemplo}
+                src={runner}
                 alt="imagen-1-card"
-                className="posession-image-section"
+                className="gym-rats-image"
               />
               <span>
                 <h4>Popular model from our Fit line.</h4>
@@ -132,12 +148,12 @@ let Projects = () => {
         <Carousel arrows>
           <article>
             <div>
-              <h2>Cats</h2>
+              <h2>CATS</h2>
               <img
-                src={ImagenEjemplo}
+                src={gato}
                 alt="10-image-slide"
                 alt="imagen-1-card"
-                className="posession-image-section"
+                className="gym-rats-image"
               />
               <span>
                 <h4>Internet favorite.</h4>
@@ -148,11 +164,11 @@ let Projects = () => {
               </span>
             </div>
             <div>
-              <h2>Dogs</h2>
+              <h2>DOGS</h2>
               <img
-                src={ImagenEjemplo}
+                src={perro}
                 alt="imagen-1-card"
-                className="posession-image-section"
+                className="gym-rats-image"
               />
               <span>
                 <h4>Human favorite.</h4>
@@ -165,12 +181,12 @@ let Projects = () => {
           </article>
           <article>
             <div>
-              <h2>Cacti</h2>
+              <h2>CACTI</h2>
               <img
-                src={ImagenEjemplo}
+                src={cactus}
                 alt="10-image-slide"
                 alt="imagen-1-card"
-                className="posession-image-section"
+                className="gym-rats-image"
               />
               <span>
                 <h4>Great design from our classic desert line.</h4>
@@ -181,11 +197,11 @@ let Projects = () => {
               </span>
             </div>
             <div>
-              <h2>Cows</h2>
+              <h2>COWS</h2>
               <img
-                src={ImagenEjemplo}
+                src={vaca}
                 alt="imagen-1-card"
-                className="posession-image-section"
+                className="gym-rats-image"
               />
               <span>
                 <h4> The Harry Styles of mammals.</h4>
@@ -201,10 +217,10 @@ let Projects = () => {
             <div>
               <h2>TREES</h2>
               <img
-                src={ImagenEjemplo}
+                src={arbol}
                 alt="10-image-slide"
                 alt="imagen-1-card"
-                className="posession-image-section"
+                className="gym-rats-image"
               />
               <span>
                 <h4> Nature favorite, one of our oldest designs.</h4>
@@ -218,9 +234,9 @@ let Projects = () => {
             <div>
               <h2>ROCKS</h2>
               <img
-                src={ImagenEjemplo}
+                src={piedra}
                 alt="imagen-1-card"
-                className="posession-image-section"
+                className="gym-rats-image"
               />
               <span>
                 <h4>One of the most sturdy designs.</h4>
@@ -248,12 +264,14 @@ let Projects = () => {
               transportation
             </h4>
           </span>
-          <img src={ImagenEjemplo} alt="gravity-image" />
+          <img src={ImagenEjemplo} alt="gravity-image" style={{opacity: 0}} />
+          <div style={{height: 60, width: 20, position: 'absolute', backgroundColor: '#F3E622', top: '2220px', opacity: 0.6, left: '380px'}}></div>
         </div>
         <div>
-          <img src={ImagenEjemplo} alt="ozone-image" />
+          <img src={ImagenEjemplo} alt="ozone-image" style={{opacity: 0}} />
           <span>
             <h2>Ozone layer</h2>
+            <div style={{height: 30, width: 110, position: 'absolute', backgroundColor: '#72EADE', top: '2500px', opacity: 0.6, left: '760px'}}></div>
             <h4>
               The ozone layer is a thin part of the Earth's atmosphere that
               absorbs almost all of the sun's harmful ultraviolet light, keeping
@@ -264,6 +282,7 @@ let Projects = () => {
         <div>
           <span>
             <h2>Volcanous</h2>
+            <div style={{height: 30, width: 100, position: 'absolute', backgroundColor: 'red', top: '2720px', opacity: 0.6, left: '380px'}}></div>
             <h4>
               A volcano is a rupture in the crust of a planetary-mass object,
               such as Earth, that allows hot lava, volcanic ash, and gases to
@@ -271,9 +290,9 @@ let Projects = () => {
               freaking humans out for an easier possession
             </h4>
           </span>
-          <img src={ImagenEjemplo} alt="volcanous-image" />
+          <img src={ImagenEjemplo} alt="volcanous-image" style={{opacity: 0}} />
         </div>
-        <button>Let's Get in Touch</button>
+        <button>Let's get in touch</button>
       </section>
 
       <Footer />
