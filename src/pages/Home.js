@@ -3,6 +3,10 @@ import { Link } from "react-router-dom";
 import ImagenEjemplo from "../assets/logo.png";
 import Scramble from "react-scramble";
 import Footer from "../components/Footer";
+import HomeFamous from "../assets/images/vaxxer.png";
+import HomeFamous1 from "../assets/images/gymrat.png";
+import HomeFamous2 from "../assets/images/famous.png";
+import GetTouch from "../assets/gifs/Home_GetInTouch.gif";
 
 /*H1 ROBOTO BOLD 36px, TITULOS DE CARD */
 
@@ -10,31 +14,17 @@ let Home = () => {
   return (
     <>
       <div className="home-first-container">
-        <img
-          src={ImagenEjemplo}
-          alt="imagen-primera-seccion"
-          className="bitch-image-earth"
-        />
         <span className="span-bitch-earth">
-          <h1>
-            It's me, bitch <br /> Your mother earth
-          </h1>
+          <h1>IT´S ME, BITCH YOUR MOTHER EARTH</h1>
           <button>Get to know me better</button>
         </span>
       </div>
       <div className="home-second-container">
-        <h2 style={{ fontSize: 31, position: "relative", right: 150 }}>
+        <h1 style={{ fontSize: 31, position: "relative", right: 150 }}>
           Home to
-        </h2>
+        </h1>
         <span className="your-next-host-span">
-          <h2
-            style={{
-              textDecoration: "underline",
-              fontSize: 36,
-              position: "relative",
-              bottom: 20,
-            }}
-          >
+          <h2>
             <Scramble
               autoStart
               text="Your next host ;)"
@@ -56,15 +46,15 @@ let Home = () => {
       </div>
       <div className="home-third-container">
         <h1 style={{ textAlign: "left" }}>
-          Enjoy a variety of human bodies to posses
+          ENJOY A VARIETY OF HUMAN BODIES TO POSSES
         </h1>
         <article>
           <div>
-            <h1>Gym Rats</h1>
+            <h1>GYM RATS</h1>
             <img
-              src={ImagenEjemplo}
+              src={HomeFamous1}
               alt="imagen-1-card"
-              className="posession-image-section"
+              className="gym-rats-image"
             />
             <span>
               <h4>People obsessed with their physical shape. </h4>
@@ -75,11 +65,11 @@ let Home = () => {
             </span>
           </div>
           <div>
-            <h1>Anti vaxxers</h1>
+            <h1>ANTI VAXXERS</h1>
             <img
-              src={ImagenEjemplo}
+              src={HomeFamous}
               alt="imagen-1-card"
-              className="posession-image-section"
+              className="vaxxer-image"
             />
             <span>
               <h4>Humans willingly weakening their immune systems.</h4>
@@ -90,11 +80,11 @@ let Home = () => {
             </span>
           </div>
           <div>
-            <h1>Vacuous celebs</h1>
+            <h1>VACUOUS CELEBS</h1>
             <img
-              src={ImagenEjemplo}
+              src={HomeFamous2}
               alt="imagen-1-card"
-              className="posession-image-section"
+              className="celebs-image"
             />
             <span>
               <h4>People others have willingly put above themselves.</h4>
@@ -111,23 +101,32 @@ let Home = () => {
         <span>
           <h1>Want to work together?</h1>
           <h1>Let's get in touch!</h1>
-          <img src={ImagenEjemplo} alt="imagen_cuarta_section" />
-          <Link to={"/contact"}><h5 style={{color: "black", position: 'relative', top: 50, fontSize: 18}}>Other methods of contact</h5></Link>
+          <img src={GetTouch} alt="imagen_cuarta_section" />
+          <Link to={"/contact"}>
+            <h5
+              style={{
+                color: "black",
+                position: "relative",
+                top: 50,
+                fontSize: 18,
+              }}
+            >
+              Other methods of contact
+            </h5>
+          </Link>
         </span>
         <span>
           <form>
             <label>
               <h5>Name</h5>
             </label>
-              <input type="text" />
+            <input type="text" />
             <label>
               <h5>Last name</h5>
             </label>
-              <input type="text" />
-            <label>
-              Email
-            </label>
-              <input type="text" />
+            <input type="text" />
+            <label>Email</label>
+            <input type="text" />
             <select>
               <option>Reason for contact</option>
               <option></option>

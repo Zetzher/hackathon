@@ -153,8 +153,10 @@ breakpoint {
 }
 
 .home-first-container {
-  height: 100vh;
-  background-color: lightgrey;
+  height: 90vh;
+  background-image: url("../assets/images/Home_Hero.jpeg");
+  background-size: cover;
+  background-repeat: no-repeat;
   display: flex;
   flex-direction: row;
   justify-content: space-evenly;
@@ -169,35 +171,50 @@ breakpoint {
 .span-bitch-earth {
   display: flex;
   flex-direction: column;
-  font-family: "Roboto", sans-serif;
+  font-family: acumin-pro, sans-serif;
   font-size: 20px;
   font-weight: 600;
   position: relative;
-  bottom: 60px;
+  bottom: 30px;
+  left: 400px;
+  color: white;
+}
+
+.span-bitch-earth h1 {
+  letter-spacing: -2px;
+  font-size: 30px;
+  width: 300px;
 }
 
 .span-bitch-earth button {
   position: relative;
-  top: 120px;
+  top: 40px;
   border-radius: 10px;
-  background-color: grey;
+  background-color: transparent;
   color: white;
-  font-family: "Roboto", sans-serif;
+  font-family: acumin-pro, sans-serif;
+  font-size: 25px;
   height: 40px;
   border: none;
-  width: 180px;
+  width: 350px;
+  height: 80px;
+  border: 3px solid white;
 }
 
 .home-second-container {
   height: 60vh;
-  background-color: white;
+  background: linear-gradient(#e42515, #c6601f);
   display: flex;
   flex-direction: row;
   justify-content: center;
   align-items: center;
-  font-weight: bold;
   position: relative;
-  bottom: 50px;
+  color: white;
+  font-family: acumin-pro, sans-serif;
+}
+.home-second-container h1 {
+  font-weight: bold;
+  letter-spacing: 4px;
 }
 
 .your-next-host-span {
@@ -206,22 +223,33 @@ breakpoint {
   align-items: center;
 }
 
+.your-next-host-span h2 {
+  font-weight: bolder;
+  letter-spacing: 2px;
+  text-decoration: underline;
+  font-size: 36px;
+  position: relative;
+  bottom: 20px;
+}
+
 .your-next-host-span button {
   position: relative;
-  top: 100px;
+  top: 50px;
   align-items: center;
+  background-color: transparent;
+  border: 1px solid white;
   border-radius: 10px;
-  background-color: grey;
   color: white;
-  font-family: "Roboto", sans-serif;
+  font-size: 16px;
+  font-family: acumin-pro, sans-serif;
   height: 40px;
-  border: none;
-  width: 160px;
+  width: 200px;
 }
 
 .home-third-container {
+  font-family: acumin-pro, sans-serif;
   height: 100vh;
-  background-color: lightgrey;
+  background-color: #ededed;
   display: flex;
   flex-direction: column;
   justify-content: space-evenly;
@@ -237,10 +265,12 @@ breakpoint {
 
 .home-third-container div {
   width: 250px;
-  height: 450px;
+  height: 370px;
   display: flex;
   flex-direction: column;
-  background-color: lightblue;
+  align-items: center;
+  background-color: #000000;
+  color: white;
   margin-right: 100px;
   position: relative;
 }
@@ -250,18 +280,34 @@ breakpoint {
   padding-top: 20px;
 }
 .home-third-container h1 {
-  font-family: "Roboto", sans-serif;
   font-weight: bold;
   font-size: 31px;
+  position: relative;
+  right: 10px;
 }
 
 .home-third-container div h1 {
   margin-top: 20px;
   margin-bottom: 20px;
-  margin-left: 20px;
-  font-family: "Roboto", sans-serif;
   font-weight: bold;
   font-size: 23px;
+  position: relative;
+  letter-spacing: -2px;
+}
+
+.gym-rats-image {
+  width: 220px;
+  height: 130px;
+}
+
+.celebs-image {
+  width: 220px;
+  height: 130px;
+}
+
+.vaxxer-image {
+  width: 220px;
+  height: 130px;
 }
 
 .home-third-container h4 {
@@ -269,18 +315,22 @@ breakpoint {
   margin-bottom: 10px;
   line-height: 20px;
   font-size: 14px;
-  font-family: "Roboto", sans-serif;
   font-weight: lighter;
+  position: relative;
+  right: 20px;
 }
 
 .home-third-container button {
+  font-family: acumin-pro, sans-serif;
+  font-size: 20px;
   border-radius: 10px;
-  background-color: grey;
-  color: white;
-  font-family: "Roboto", sans-serif;
-  height: 40px;
+  background-color: transparent;
+  color: black;
+  height: 50px;
   border: none;
-  width: 200px;
+  width: 300px;
+  font-weight: bold;
+  border: 3px solid black;
 }
 
 .posession-image-section {
@@ -291,19 +341,28 @@ breakpoint {
 
 .home-fourth-container {
   height: 100vh;
-  background-color: white;
+  background-color: #f4f4f4;
   display: flex;
   flex-direction: row;
   justify-content: space-evenly;
   align-items: center;
 }
 
-.home-fourth-container h1 {
-  font-family: "Roboto", sans-serif;
-  font-size: 31px;
+.home-fourth-container span h1 {
+  font-family: acumin-pro, sans-serif;
+  font-size: 60px;
   font-weight: bold;
-  position: relative;
-  bottom: 20px;
+  letter-spacing: -4px;
+  margin-bottom: 5px;
+  width: 400px;
+}
+
+.home-fourth-container span {
+  font-family: acumin-pro, sans-serif;
+  font-size: 18px;
+  color: black;
+  font-weight: bold;
+  margin-bottom: 30px;
 }
 
 .home-fourth-container form {
@@ -312,9 +371,12 @@ breakpoint {
   justify-content: space-around;
   align-items: center;
   width: 400px;
-  height: 500px;
-  background-color: blue;
+  height: 600px;
+  background-color: white;
   border-radius: 10px;
+  -webkit-box-shadow: 1px 6px 5px 2px rgba(211, 211, 211, 1);
+  -moz-box-shadow: 1px 6px 5px 2px rgba(211, 211, 211, 1);
+  box-shadow: 1px 6px 5px 2px rgba(211, 211, 211, 1);
 }
 
 .home-fourth-container input {
@@ -677,8 +739,6 @@ footer img {
   font-size: 20px;
 }
 
-/**/
-
 .partnerships-second-container {
   height: 90vh;
   margin-left: 200px;
@@ -861,10 +921,26 @@ footer img {
 
 .article-nature-section h1 {
   margin-bottom: 30px;
+  font-family: acumin-pro, sans-serif;
+  font-size: 60px;
+  letter-spacing: -8px;
+  font-weight: bold;
+}
+
+.article-nature-section h3 {
+  font-family: acumin-pro, sans-serif;
+  font-size: 36px;
+  font-weight: lighter;
+  line-height: 40px;
+  width: 550px;
+}
+
+.article-nature-section h3 span {
+  border-bottom: 23px solid #edd147;
 }
 
 .aboutme-first-section {
-  height: 20vh;
+  height: 30vh;
   display: flex;
   align-items: center;
   flex-direction: column;
@@ -893,8 +969,13 @@ footer img {
 }
 
 .aboutme-first-section span h1 {
+  font-family: acumin-pro, sans-serif;
+  font-size: 36px;
+  font-weight: bold;
   text-align: left;
-  width: 250px;
+  width: 400px;
+  height: 40px;
+  letter-spacing: -3px;
   position: relative;
   left: 150px;
   bottom: 30px;
@@ -902,7 +983,9 @@ footer img {
 }
 
 .aboutme-first-section span h4 {
-  width: 350px;
+  font-family: acumin-pro, sans-serif;
+  font-weight: 100;
+  width: 300px;
   position: relative;
   left: 150px;
   line-height: 24px;
@@ -914,20 +997,34 @@ footer img {
   position: relative;
   left: 150px;
   top: 55px;
+  background: none;
+  border-radius: 5%;
+  border-color: red;
+  color: red;
+  font-weight: bold;
 }
 
 .aboutme-second-section {
-  height: 80vh;
+  height: 90vh;
   display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
   position: relative;
   top: 20px;
 }
 
-.aboutme-second-section span {
+.aboutme-second-section div {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.aboutme-second-section div span {
   display: flex;
   flex-direction: column;
+  position: relative;
+  top: 10px;
 }
 
 .aboutme-second-section img {
@@ -938,12 +1035,110 @@ footer img {
 .aboutme-second-section span h1 {
   position: relative;
   bottom: 30px;
-}
-
-.aboutme-second-section span h4 {
+  font-family: acumin-pro, sans-serif;
+  font-size: 36px;
+  font-weight: bold;
+  text-align: left;
   width: 400px;
+  height: 40px;
+  letter-spacing: -3px;
   line-height: 24px;
 }
 
-.aboutme-second-section span button {
+.aboutme-second-section span h4 {
+  font-family: acumin-pro, sans-serif;
+  font-weight: 100;
+  width: 300px;
+  line-height: 24px;
+  margin-bottom: 10px;
+}
+
+.aboutme-second-section button {
+  width: 300px;
+  height: 40px;
+  background: none;
+  border-radius: 5%;
+  border-color: red;
+  color: red;
+  font-weight: bold;
+  position: relative;
+  top: 25px;
+}
+
+.aboutme-third-section {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.aboutme-third-section h1 {
+  font-family: acumin-pro, sans-serif;
+  font-size: 36px;
+  font-weight: bold;
+  text-align: center;
+  width: 600px;
+  letter-spacing: -2px;
+}
+
+.aboutme-third-section div img {
+  margin: 30px;
+  width: 100px;
+  position: relative;
+  top: 10px;
+}
+
+.aboutme-fourth-section {
+  height: 80vh;
+  display: flex;
+  flex-direction: column;
+  background-color: #ebf4f5;
+  padding-top: 50px;
+}
+
+.aboutme-fourth-section h1 {
+  position: relative;
+  left: 250px;
+  font-family: acumin-pro, sans-serif;
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.aboutme-fourth-section article {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  font-family: acumin-pro, sans-serif;
+}
+
+.aboutme-fourth-section span {
+  position: relative;
+  top: 50px;
+  margin-left: 30px;
+  margin-right: 30px;
+  background-color: white;
+  width: 300px;
+  height: 400px;
+  padding-right: 30px;
+  padding-left: 30px;
+}
+
+.aboutme-fourth-section h2 {
+  line-height: 20px;
+  margin-bottom: 20px;
+  font-size: 15px;
+  font-weight: bold;
+  padding-top: 20px;
+}
+
+.aboutme-fourth-section h3 {
+  line-height: 20px;
+  margin-bottom: 20px;
+  font-size: 13px;
+}
+
+.aboutme-fourth-section h4 {
+  line-height: 20px;
+  margin-bottom: 20px;
+  font-size: 11px;
 }
